@@ -1,0 +1,297 @@
+#resume {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+  padding: 40px 16px;
+  max-width: none;
+  color: #000;
+  scroll-margin-top: 1rem;
+}
+
+#resume .wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #fff;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#resume .main-content {
+  flex: 1;
+  min-width: 0;
+  padding: 48px 40px;
+}
+
+#resume .my-profession {
+  padding-bottom: 20px;
+  margin: 0 0 18px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.2;
+  color: #000000;
+}
+
+#resume .my-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0 0 28px 0;
+}
+
+#resume .my-description {
+  max-width: 525px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+#resume .about-me-container {
+  margin-bottom: 54px;
+}
+
+#resume .main-content-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0 0 12px 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+#resume .projects-container {
+  margin-bottom: 48px;
+}
+
+#resume .project-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+#resume .porject-item-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #005fff;
+  word-break: break-all;
+}
+
+#resume .project-item-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+}
+
+#resume .projcet-list {
+  margin: 0;
+  padding: 0 0 0 14px;
+}
+
+#resume .work-experiance-container {
+  margin-bottom: 44px;
+}
+
+#resume .work-experiance-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+}
+
+#resume .company {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6d9bf5;
+}
+
+#resume .work-expereance-place {
+  margin-bottom: 16px;
+}
+
+#resume .work-preiaod {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  margin: 12px 0 8px 0;
+}
+
+#resume .work-dudies {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+}
+
+#resume .work-duties-list {
+  padding: 0 0 0 14px;
+  margin: 0;
+}
+
+#resume .education-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6d9bf5;
+  margin: 0 0 12px 0;
+}
+
+#resume .education-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 12px 0;
+}
+
+#resume .education-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  margin: 0 0 12px 0;
+}
+
+#resume .sidebar {
+  width: 370px;
+  flex-shrink: 0;
+  background: #e0ebfe;
+}
+
+#resume .my-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+}
+
+#resume .contacts-container,
+#resume .tech-skills-container,
+#resume .soft-skills-container {
+  margin: 48px 40px;
+}
+
+#resume .sidebar-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+  margin-bottom: 8px;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+#resume .contacts-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  margin-right: 4px;
+}
+
+#resume .contacts-item {
+  margin: 0;
+}
+
+#resume .contacts-number,
+#resume .contacts-email {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #161d2a;
+}
+
+#resume .skills-list {
+  margin: 0 0 0 16px;
+  padding: 0;
+}
+
+#resume .skills-list-item {
+  color: #6d9bf5;
+}
+
+#resume .skills-list-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #161d2a;
+}
+
+#resume .soft-skills-title {
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+}
+
+#resume .soft-skills-list {
+  margin: 0 0 0 16px;
+  padding: 0;
+}
+
+#resume .soft-skills-list-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6d9bf5;
+}
+
+#resume .soft-skills-list-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #161d2a;
+}
+
+@media (max-width: 900px) {
+  #resume {
+    padding: 24px 12px;
+  }
+
+  #resume .wrapper {
+    flex-direction: column;
+  }
+
+  #resume .sidebar {
+    width: 100%;
+  }
+
+  #resume .main-content {
+    padding: 32px 20px;
+  }
+
+  #resume .my-name {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+}

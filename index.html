@@ -3,8 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Andriy Chebanov | Portfolio</title>
-  
+  <title>Andriy Chebanov | Game Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Andriy Chebanov — Unity C# game developer. Projects, experience, and resume." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./resume/css/Style.css" />
+
   <style>
     body {
       margin: 0;
@@ -54,9 +60,9 @@
       color: white;
       text-align: center;
       padding: 1rem;
-      margin-top: 2rem;
+      margin-top: 0;
     }
-        .resume-button {
+    .resume-button {
       display: inline-block;
       padding: 0.75rem 1.5rem;
       border: 2px solid white;
@@ -72,14 +78,6 @@
       background: #0055aa;
       transform: scale(1.05);
     }
-
-    footer {
-      background: #003366;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
   </style>
 </head>
 <body>
@@ -94,7 +92,7 @@
     <p>I am a talented Game Creator and I very love creating and playing both mobile and PC games. I completed the Unity C# course by Foxminded and built a diverse portfolio that includes everything from multiplayer mobile apps to a TPS zombie shooter. In the past, I worked on a Team Fight RPG and developed a full-featured engine for visual novels.
 You can find more details in my resume below.</p>
       <div style="text-align: center; padding: 2rem;">
-    <a href="https://delightful-mandazi-33e1ea.netlify.app" class="resume-button" target="_blank">View Resume</a>
+    <a href="#resume" class="resume-button">View Resume</a>
   </div>
   </section>
 
@@ -105,9 +103,8 @@ You can find more details in my resume below.</p>
       <h3>Zombie Shooter</h3>
       <img src="ZombieShooterCollage.png" alt="Zombie Shooter" />
       <p>TPS zombie shooter where the player fights off endless waves of the undead. Ammunition drops from defeated enemies. Features include dynamic gameplay pacing, smooth character animations, and custom VFX for blood and gunfire. Developed entirely in Unity.</p>
-      <a href="https://silimon4ik.itch.io/zombie-shooter" class="resume-button" target="_blank">Itch.io →</a>
-      <a href="https://github.com/Silimon4ikGitHub/ZombieShooter" class="resume-button" target="_blank">GitHub →</a>
-      
+      <a href="https://silimon4ik.itch.io/zombie-shooter" class="resume-button" target="_blank" rel="noopener noreferrer">Itch.io →</a>
+      <a href="https://github.com/Silimon4ikGitHub/ZombieShooter" class="resume-button" target="_blank" rel="noopener noreferrer">GitHub →</a>
     </div>
 
     <div class="project">
@@ -117,21 +114,199 @@ You can find more details in my resume below.</p>
 On the platform mia.promotich.team, authors can create their own stories using a Node-based system — and this app was built specifically to bring those stories to life. The game features a wide variety of choices, branching storylines, character stats, and relationship mechanics.
 Implemented systems include monetization, user authentication, in-app purchases (IAP), ads integration, Cloud Content Delivery, and more.
 Most impressively, the entire application was designed and developed solely by me.</p>
-      <a href="https://play.google.com/store/apps/details?id=com.Promotich.miaStoriesTogether"class="resume-button" target="_blank">Play Market →</a>
+      <a href="https://play.google.com/store/apps/details?id=com.Promotich.miaStoriesTogether" class="resume-button" target="_blank" rel="noopener noreferrer">Play Market →</a>
     </div>
 
     <div class="project">
       <h3>FireMan2D</h3>
       <img src="439680f8-4129-40ce-8033-98113f63ed44.png" alt="FireMan2D" />
       <p>A 2D pixel-art platformer where you command a fire wizard and his army in an assault on a fortress. The game features dynamic combat mechanics, spellcasting, and strategic unit deployment. Developed in Unity with a focus on engaging gameplay and retro visuals.</p>
-      <a href="https://github.com/Silimon4ikGitHub/FireMan2D"class="resume-button" target="_blank">GitHub →</a>
+      <a href="https://github.com/Silimon4ikGitHub/FireMan2D" class="resume-button" target="_blank" rel="noopener noreferrer">GitHub →</a>
     </div>
 
     <div class="project">
       <h3>Dice</h3>
       <img src="2b1b10b9-b6f3-4e5a-9d9f-d0878de27c22.png" alt="Dice" />
       <p>Online dice-rolling platform for D&D sessions. Works seamlessly across multiple devices with synchronized results visible to all players in real time.</p>
-      <a href="https://github.com/Silimon4ikGitHub/Dice"class="resume-button" target="_blank">GitHub →</a>
+      <a href="https://github.com/Silimon4ikGitHub/Dice" class="resume-button" target="_blank" rel="noopener noreferrer">GitHub →</a>
+    </div>
+  </section>
+
+  <section id="resume" aria-label="Resume">
+    <div class="wrapper">
+      <div class="main-content">
+        <div class="about-me-container">
+          <h2 class="my-profession">Unity Developer</h2>
+          <h1 class="my-name">Chebanov Andriy</h1>
+          <p class="my-description">
+            Hi, my name is Andriy! I am Unity C# Developer with nearly 5 years of experience in game
+            development. As a Game and App Developer with commercial releases on the App
+            Store and Google Play. I specialize in building cross-platform games and applications using Unity and
+            Unreal Engine 5, with strong programming skills in C# and C++. I have hands-on
+            experience designing and implementing multiplayer architectures, including
+            Unity Relay, Photon, PlayFab, as well as custom backend solutions built with
+            PHP.
+          </p>
+        </div>
+
+        <div class="projects-container">
+          <h3 class="main-content-title">Projects</h3>
+          <ol class="projcet-list">
+            <li class="project-item">
+              <a href="https://play.google.com/store/apps/details?id=com.Promotich.miaStoriesTogether" class="porject-item-link"
+                >https://play.google.com/store/apps/details?id=com.Promotich.miaStoriesTogether</a>
+              <span class="project-item-text">
+                [GPGS, CCD, Notifications, IAP Purchase, Monetization, ADS]
+              </span>
+            </li>
+            <li class="project-item">
+              <a href="https://github.com/Silimon4ikGitHub/ZombieShooter" class="porject-item-link"
+                >https://github.com/Silimon4ikGitHub/ZombieShooter</a><br>
+              <span class="project-item-text">
+               [Unity, C#, TPS Controller, Opsive Controller, Proops, Ragdoll]
+              </span>
+            </li>
+            <li class="project-item">
+              <a href="https://github.com/Silimon4ikGitHub/Dice" class="porject-item-link"
+                >https://github.com/Silimon4ikGitHub/Dice</a><br>
+              <span class="project-item-text">
+                [Unity, C#, Photon Network, PUN 2, Photon View, Network Menu]
+              </span>
+            </li>
+            <li class="project-item">
+              <a href="https://github.com/Silimon4ikGitHub/Pool8" class="porject-item-link"
+                >https://github.com/Silimon4ikGitHub/Pool8</a><br>
+              <span class="project-item-text">
+                [Unity, C#, Physics 3D, Sound, Slider, Quaternions, Physics Material, Colliders]
+              </span>
+            </li>
+            <li class="project-item">
+              <a href="https://github.com/Silimon4ikGitHub/FireMan2D" class="porject-item-link"
+                >https://github.com/Silimon4ikGitHub/FireMan2D</a><br>
+              <span class="project-item-text">
+                [Unity, C#, TileMap, UI, Animation, Menu, Scenes, Slider]
+              </span>
+            </li>
+          </ol>
+        </div>
+
+        <div class="work-experiance-container">
+          <h3 class="main-content-title">Work Experience</h3>
+
+          <div class="work-expereance-place">
+            <h4 class="work-experiance-position">
+              Project Tech Lead <span class="company">CHECKMAT (https://checkmat.net)</span>
+            </h4>
+            <p class="work-preiaod">July 2025 - Present</p>
+            <ul class="work-duties-list">
+              <li class="work-dudies">
+                Managed End-to-End Product Lifecycle &amp; Compliance Management(initial concept-to-AppStore/PlayMarket).
+              </li>
+              <li class="work-dudies">
+                Architected and Implemented Scalable Game Systems - Matchmaking &amp; Social (friends system, calibration, leaderboard, ladder).
+              </li>
+              <li class="work-dudies">
+                Developed and Deployed an Intelligent Bot Ecosystem.
+              </li>
+              <li class="work-dudies">
+                Established CI/CD Pipelines and A/B Testing Frameworks
+              </li>
+            </ul>
+          </div>
+
+          <div class="work-expereance-place">
+            <h4 class="work-experiance-position">
+              Full stack Developer <span class="company">PROMOTICH (https://www.promotich.team)</span>
+            </h4>
+            <p class="work-preiaod">August 2024 - May 2025</p>
+            <ul class="work-duties-list">
+              <li class="work-dudies">
+                Led the technical development of a mobile game project from concept to release on Google Play and App Store.
+              </li>
+              <li class="work-dudies">
+                Implemented API calls for content delivery and usage.
+              </li>
+              <li class="work-dudies">
+                Developed a visual novel engine using a node-based constructor.
+              </li>
+              <li class="work-dudies">
+                Implemented game monetization systems: pay-to-play, pay-to-win, and cosmetic purchases.
+              </li>
+            </ul>
+          </div>
+
+          <div class="work-expereance-place">
+            <h4 class="work-experiance-position">
+              Junior Developer <span class="company">Blakbird</span>
+            </h4>
+            <p class="work-preiaod">October 2023 - July 2024</p>
+            <ul class="work-duties-list">
+              <li class="work-dudies">
+                Integrated Unity Cloud Services.
+              </li>
+              <li class="work-dudies">
+                Integrated PlayFab Services.
+              </li>
+              <li class="work-dudies">
+                Developed gameplay mechanics for a Team Fight RPG.
+              </li>
+              <li class="work-dudies">
+                Implemented systems for saving, quests, characters, attributes, enemies, game modes, and more.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="education-container">
+          <h3 class="main-content-title">Education</h3>
+          <h4 class="education-item">FoxMinded school</h4>
+          <h5 class="education-type">Unity 3D Mentoring Course</h5>
+          <p class="education-period">October 2022 - March 2023</p>
+          <h4 class="education-item">Azov Maritime Institute NU ONMA</h4>
+          <h5 class="education-type">Navigation - Bachelor</h5>
+          <p class="education-period">September 2013 - June 2017</p>
+        </div>
+      </div>
+
+      <aside class="sidebar">
+        <img
+          src="./resume/png/myPhoto.png"
+          alt="Andriy Chebanov"
+          class="my-photo"
+        />
+
+        <div class="contacts-container">
+          <h3 class="sidebar-title">Contacts</h3>
+          <p class="contacts-item">
+            <span class="contacts-type">Phone: </span>
+            <a href="tel:+380687822914" class="contacts-number">+38 068 782 29 14</a>
+          </p>
+          <p class="contacts-item">
+            <span class="contacts-type">Email: </span>
+            <a href="mailto:chebanovandriy111@gmail.com" class="contacts-email">chebanovandriy111@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="tech-skills-container">
+          <h3 class="sidebar-title">Tech Skills</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item"><span class="skills-list-text">Unity</span></li>
+            <li class="skills-list-item"><span class="skills-list-text">C#</span></li>
+            <li class="skills-list-item"><span class="skills-list-text">SOLID</span></li>
+            <li class="skills-list-item"><span class="skills-list-text">UI</span></li>
+            <li class="skills-list-item"><span class="skills-list-text">Git</span></li>
+          </ul>
+        </div>
+
+        <div class="soft-skills-container">
+          <h3 class="soft-skills-title">Soft Skills</h3>
+          <ul class="soft-skills-list">
+            <li class="soft-skills-list-item"><span class="soft-skills-list-text">English - C1</span></li>
+            <li class="soft-skills-list-item"><span class="soft-skills-list-text">Italian - B1</span></li>
+            <li class="soft-skills-list-item"><span class="soft-skills-list-text">Deutsch - A1</span></li>
+          </ul>
+        </div>
+      </aside>
     </div>
   </section>
 
