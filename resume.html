@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume | Andriy Chebanov</title>
+  <meta name="description" content="Download the CV of Andriy Chebanov — Unity C# game developer." />
+  <link rel="canonical" href="https://leaning.ch/resume.html" />
+  <link rel="icon" type="image/png" href="./favicon.png" />
+  <link rel="apple-touch-icon" href="./favicon.png" />
+  <style>
+    :root {
+      --navy: #003366;
+      --navy-dark: #002244;
+      --navy-hover: #0055aa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      color: var(--navy);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: linear-gradient(135deg, var(--navy) 70%, var(--navy-dark) 70%);
+      color: white;
+      padding: 2rem 1.5rem 3rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 0.5rem;
+      font-size: 1.75rem;
+    }
+    header p {
+      margin: 0 0 1.5rem;
+      opacity: 0.95;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      border: 2px solid white;
+      color: white !important;
+      background: var(--navy);
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .btn:hover {
+      background: var(--navy-hover);
+      transform: scale(1.05);
+    }
+    .btn-secondary {
+      background: transparent;
+    }
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 960px;
+      margin: -1.5rem auto 2rem;
+      padding: 0 1rem;
+    }
+    .pdf-frame {
+      width: 100%;
+      height: min(80vh, 1100px);
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background: #fff;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    }
+    .mobile-note {
+      display: none;
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #fff;
+      border-radius: 4px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    }
+    footer {
+      background: var(--navy);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    footer a {
+      color: white;
+    }
+    @media (max-width: 700px) {
+      .pdf-frame { display: none; }
+      .mobile-note { display: block; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Andriy Chebanov — Resume</h1>
+    <p>Game Developer CV (PDF)</p>
+    <div class="actions">
+      <a class="btn" href="./Andriy-Chebanov-CV-GameDev.pdf" download="Andriy Chebanov - CV GameDev.pdf">Download PDF</a>
+      <a class="btn btn-secondary" href="./index.html">← Back to Portfolio</a>
+    </div>
+  </header>
+
+  <main>
+    <iframe
+      class="pdf-frame"
+      src="./Andriy-Chebanov-CV-GameDev.pdf"
+      title="Andriy Chebanov CV"
+    ></iframe>
+    <div class="mobile-note">
+      <p>Preview may not work on mobile. Use the download button above to open the PDF.</p>
+      <p style="margin-top: 1.5rem;">
+        <a class="btn" href="./Andriy-Chebanov-CV-GameDev.pdf" download="Andriy Chebanov - CV GameDev.pdf">Download PDF</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Andriy Chebanov | <a href="./index.html">Portfolio</a></p>
+  </footer>
+</body>
+</html>
